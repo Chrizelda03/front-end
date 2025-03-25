@@ -24,10 +24,29 @@ body{
     height: 300px; 
     width: 1200px; 
 }
+.aaa{
+    text-align:center;
+    font-family: Poppins;
+    color: #ffff;
+    background-color:#345436;
+    border-radius: 5px;
+    width: 160px;
+    height: 27px;
+}
+.ann{
+    text-align:center;
+    font-family: Poppins;
+    color: #ffff;
+    background-color:#345436;
+    border-radius: 5px;
+    width: 250px;
+    height: 27px;
+
+}
 .sidebar .pfp{
     text-align: center;
 }
-.pfp{
+.pfp{ 
     height: 100px;
 }
 .pfp b{
