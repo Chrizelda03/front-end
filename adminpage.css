@@ -16,13 +16,20 @@ body{
     border-radius: 25px;
     width: 900px;
     height: 80px;
-    margin: 20px;
+    margin: 10px;
 }
 .bbb{
     display: flex;
     justify-content: center;
-    height: 300px; 
-    width: 1200px; 
+}
+.analytics{
+    font-size: 20px;
+    text-align: center;
+    border:3px solid #ff5900 ;
+    border-radius: 25px;
+    width: 700px;
+    height: 300px;
+    margin: 10px;
 }
 .aaa{
     text-align:center;
@@ -44,22 +51,27 @@ body{
     height: 27px;
 }
 .membership{
-    line-height: 60px;
+    font-family: Poppins;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    line-height:65px;
     text-align: center;
     border:2px solid #000000;
     background-color: white;
     border-radius: 25px;
     width: 200px;
     height: 70px;
-    margin: 10px;       
+    margin: 10px;
+}
+.membership:hover{
+    background-color: #EB8B37;
 }
 .mem2{
     display: flex;
     justify-content: left;
-    width: 1200px;
 }
 .mem3{
-    display: absolute;
     border:2px solid #000000;
     background-color: white;
     border-radius: 25px;
@@ -68,6 +80,14 @@ body{
 }
 .both2{
     display: flex;  
+}
+table, th, td {
+    border: 0px solid black;
+    position: sticky;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Poppins;
 
 }
 .both{
